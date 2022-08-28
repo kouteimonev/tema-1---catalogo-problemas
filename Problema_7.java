@@ -5,7 +5,7 @@ public class Problema_7 {
 	Scanner leer = new Scanner(System.in);
 	
 	int pedir() {
-		System.out.println("Ingrese un numero entero:\n");
+		System.out.println("Ingrese un numero entero:");
 		return leer.nextInt();
 	}
 	
@@ -19,7 +19,7 @@ public class Problema_7 {
 		num = pedir();
 		System.out.println(num);
 		
-		System.out.println("Ingrese un numero:\n");
+		System.out.println("Ingrese un numero:");
 		num = triple(leer.nextInt());
 		System.out.println(num);
 	}
