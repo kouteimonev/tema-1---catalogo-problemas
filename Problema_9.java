@@ -13,7 +13,8 @@ public class Problema_9 {
 		int num;
 		Scanner leer = new Scanner(System.in);
 		
-		System.out.println("Ingrese un numero entero:\n");
+		System.out.println("Ingrese un numero entero:");
+		
 		num = esPar(leer.nextInt());
 		
 		System.out.println(num);
