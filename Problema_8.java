@@ -6,7 +6,7 @@ public class Problema_8 {
 		double precio;
 		Scanner leer = new Scanner(System.in);
 		
-		System.out.println("Ingrese el precio del traje:\n");
+		System.out.println("Ingrese el precio del traje:");
 		precio = leer.nextFloat();
 		
 		if(precio>2500)
