@@ -6,7 +6,7 @@ public class Problema_6 {
 		int sumas[]=new int[3], tabla[][]=new int[3][2];
 		Scanner leer = new Scanner(System.in);
 		
-		System.out.println("Ingrese 6 numerso enteros:\n");
+		System.out.println("Ingrese 6 numerso enteros:");
 		
 		for(int i=0; i<3; i++) {
 			for(int j=0; j<2; j++) {
