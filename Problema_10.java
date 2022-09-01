@@ -10,7 +10,7 @@ public class Problema_10 {
 		estudiantes = leer.nextInt();
 		calificaciones = new int[estudiantes];
 		
-		System.out.println("\nIngrese las califiaciones:");
+		System.out.println("\nIngrese las calificaciones:");
 		
 		for(int i=0; i<estudiantes; i++) {
 			calificaciones[i] = leer.nextInt();

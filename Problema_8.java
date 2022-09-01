@@ -10,11 +10,13 @@ public class Problema_8 {
 		System.out.println("Ingrese el precio del traje:");
 		precio = leer.nextDouble();
 		descuento = precio(precio);
-					
+		
+			
 		System.out.println("El precio del traje es $" + descuento);
 	}
 	
 	public static double precio(double costo) {
+				
 		if(costo>2500)
 			costo *= .85;
 		else
